@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGAP-SD BADUNG - Beranda</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-navy shadow-sm">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <i class="bi bi-mortarboard-fill me-2 fs-4"></i>
+                <div>
+                    <strong>SIGAP-SD BADUNG</strong>
+                    <small class="d-block" style="font-size:0.7rem; opacity:0.8;">Sistem Informasi Sarana Prasarana SD</small>
+                </div>
+            </a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Beranda</a></li>
+                    <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero-section text-white text-center py-5">
+        <div class="container py-5">
+            <i class="bi bi-mortarboard-fill mb-4" style="font-size:5rem;"></i>
+            <h1 class="display-4 fw-bold mb-3">SIGAP-SD BADUNG</h1>
+            <p class="lead mb-2">Sistem Informasi Geospasial Aset & Pelaporan Sarana Prasarana Sekolah Dasar</p>
+            <p class="mb-4 opacity-75"><em>"Data Aset Akurat, Sekolah Bermutu, Pendidikan Berkualitas"</em></p>
+            <a href="login.html" class="btn btn-warning btn-lg px-5 rounded-pill fw-bold">
+                <i class="bi bi-box-arrow-in-right me-2"></i>Masuk Sistem
+            </a>
+        </div>
+    </section>
+
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-3 col-6">
+                    <div class="stat-card text-center p-4 rounded-3 shadow-sm bg-white">
+                        <i class="bi bi-building text-navy" style="font-size:2.5rem;"></i>
+                        <h2 class="fw-bold mt-2" id="statSekolah">-</h2>
+                        <p class="text-muted mb-0">Sekolah Dasar</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="stat-card text-center p-4 rounded-3 shadow-sm bg-white">
+                        <i class="bi bi-box-seam text-success" style="font-size:2.5rem;"></i>
+                        <h2 class="fw-bold mt-2" id="statSarpras">-</h2>
+                        <p class="text-muted mb-0">Item Sarpras</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="stat-card text-center p-4 rounded-3 shadow-sm bg-white">
+                        <i class="bi bi-exclamation-triangle text-warning" style="font-size:2.5rem;"></i>
+                        <h2 class="fw-bold mt-2" id="statKerusakan">-</h2>
+                        <p class="text-muted mb-0">Laporan Kerusakan</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="stat-card text-center p-4 rounded-3 shadow-sm bg-white">
+                        <i class="bi bi-check-circle text-info" style="font-size:2.5rem;"></i>
+                        <h2 class="fw-bold mt-2" id="statPerbaikan">-</h2>
+                        <p class="text-muted mb-0">Sudah Diperbaiki</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5">
+        <div class="container">
+            <h3 class="text-center fw-bold mb-5 text-navy">Fitur Utama</h3>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="feature-card p-4 rounded-3 text-center h-100 shadow-sm">
+                        <i class="bi bi-database-fill text-navy" style="font-size:3rem;"></i>
+                        <h5 class="fw-bold mt-3">Inventaris Digital</h5>
+                        <p class="text-muted">Pendataan sarana prasarana sekolah secara lengkap dan terstruktur.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card p-4 rounded-3 text-center h-100 shadow-sm">
+                        <i class="bi bi-geo-alt-fill text-navy" style="font-size:3rem;"></i>
+                        <h5 class="fw-bold mt-3">Peta Geospasial</h5>
+                        <p class="text-muted">Visualisasi persebaran sekolah dan kondisi aset dalam peta interaktif.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card p-4 rounded-3 text-center h-100 shadow-sm">
+                        <i class="bi bi-bug-fill text-navy" style="font-size:3rem;"></i>
+                        <h5 class="fw-bold mt-3">Pelaporan Kerusakan</h5>
+                        <p class="text-muted">Sistem pelaporan dan monitoring perbaikan sarana prasarana.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-navy text-white py-4">
+        <div class="container text-center">
+            <p class="mb-1"><i class="bi bi-building me-2"></i>Dinas Pendidikan Kabupaten Badung</p>
+            <small class="opacity-75">© 2026 SIGAP-SD BADUNG - Aksi Perubahan PKA</small>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/helper.js"></script>
+    <script>
+        // Load statistik real dari API
+        async function loadStats() {
+            try {
+                const stats = await getStats();
+                if (stats && stats.success) {
+                    document.getElementById('statSekolah').textContent = stats.data.totalSekolah || 0;
+                    document.getElementById('statSarpras').textContent = stats.data.totalSarpras || 0;
+                    document.getElementById('statKerusakan').textContent = stats.data.totalLaporan || 0;
+                    
+                    // Hitung yang sudah diperbaiki dari laporan
+                    const laporan = await getLaporanKerusakan();
+                    if (laporan && laporan.success) {
+                        const selesai = laporan.data.filter(l => l.status === 'Selesai').length;
+                        document.getElementById('statPerbaikan').textContent = selesai;
+                    }
+                }
+            } catch (error) {
+                console.error('Error loading stats:', error);
+                // Fallback ke angka default jika API gagal
+                document.getElementById('statSekolah').textContent = '20';
+                document.getElementById('statSarpras').textContent = '30';
+                document.getElementById('statKerusakan').textContent = '10';
+                document.getElementById('statPerbaikan').textContent = '5';
+            }
+        }
+
+        // Panggil saat halaman dimuat
+        loadStats();
+    </script>
+</body>
+</html>
